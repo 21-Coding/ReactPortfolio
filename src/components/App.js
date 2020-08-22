@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from './Header.js'
-import Projects from './Projects.js'
+import Header from './Header'
+import Projects from './Projects'
 import './App.css';
 
 
