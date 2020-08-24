@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
+import LandingPage from './landingpage';
+import { Switch, Route } from 'react-router-dom';
+const Main = () => (
+    <Switch>
+        <Route exact path="/" component={LandingPage} />
+    </Switch>
+)
 
-class Main extends Component {
-    render() {
-        return(
-            <div><h1>Main</h1></div>
-        )
-    }
-}
 
 export default Main;
