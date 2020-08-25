@@ -16,6 +16,7 @@ class Projects extends Component {
               <Tab>VueJS</Tab>
               <Tab>MongoDB</Tab>
             </Tabs>
+          </div>  
             )
     }
 }
