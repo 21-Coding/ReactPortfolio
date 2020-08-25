@@ -24,15 +24,15 @@ class Projects extends Component {
             )
         } else if(this.state.activeTab === 1) {
             return (
-                <div><h1>This is react</h1></div>
+                <div><h1>This is C#</h1></div>
             )
         } else if(this.state.activeTab === 2) {
             return (
-                <div><h1>This is react</h1></div>
+                <div><h1>This is Ruby</h1></div>
             )
         } else if(this.state.activeTab === 3) {
             return (
-                <div><h1>This is react</h1></div>
+                <div><h1>This is Unity</h1></div>
             )
         }
 
@@ -44,6 +44,7 @@ class Projects extends Component {
               <Tab>React</Tab>
               <Tab>C#</Tab>
               <Tab>Ruby</Tab>
+              <Tab>Unity</Tab>
             </Tabs>
 
             <section className="projects-grid">
@@ -52,7 +53,7 @@ class Projects extends Component {
         <div className="content">{this.toggleCategories()}</div>
                     </Cell>
                 </Grid>
-                {this.toggleCategories()}
+                
             </section>
           </div>  
             )
