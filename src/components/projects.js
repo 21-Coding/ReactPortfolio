@@ -15,6 +15,10 @@ class Projects extends Component {
               <Tab>C#</Tab>
               <Tab>Ruby</Tab>
             </Tabs>
+
+            <section className="projects-grid">
+                {this.toggleCategories()}
+            </section>
           </div>  
             )
     }
