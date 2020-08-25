@@ -7,6 +7,26 @@ class Projects extends Component {
         this.state = { activeTab: 0};
     } 
 
+    toggleCategories() {
+        if(this.state.activeTab === 0){
+            return(
+                <div><h1>This is react</h1></div>
+            )
+        } else if(this.state.activeTab === 1) {
+            return (
+                <div><h1>This is react</h1></div>
+            )
+        } else if(this.state.activeTab === 2) {
+            return (
+                <div><h1>This is react</h1></div>
+            )
+        } else if(this.state.activeTab === 3) {
+            return (
+                <div><h1>This is react</h1></div>
+            )
+        }
+
+    }
     render() {
         return(
           <div>
