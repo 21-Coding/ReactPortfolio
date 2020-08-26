@@ -11,9 +11,9 @@ class Projects extends Component {
         if(this.state.activeTab === 0){
             return(
                 <Card shadow={5} stlye={{minWidth: '450', margin: 'auto'}}>
-                 <CardTitle style={{color: '#fff', height: '176px', background: ''}}></CardTitle>
+                 <CardTitle style={{color: '#fff', height: '276px', background: 'url(https://media.giphy.com/media/12BYUePgtn7sis/giphy.gif)'}}></CardTitle>
                      <CardText>
-                         Lorem ipsum
+                         React code description.
                      </CardText>
                      <CardActions border>
                          <Button colored>GitHub</Button>
@@ -21,11 +21,13 @@ class Projects extends Component {
                      </CardActions>
 
                 </Card>
+
+                
             )
         } else if(this.state.activeTab === 1) {
             return (
                 <Card shadow={5} stlye={{minWidth: '450', margin: 'auto'}}>
-                <CardTitle style={{color: '#fff', height: '176px', background: ''}}></CardTitle>
+                <CardTitle style={{color: '#fff', height: '276px', background: 'url(https://media.giphy.com/media/MCAV63rqDcnHG/giphy.gif)'}}></CardTitle>
                     <CardText>
                         Lorem ipsum
                     </CardText>
@@ -39,7 +41,7 @@ class Projects extends Component {
         } else if(this.state.activeTab === 2) {
             return (
                 <Card shadow={5} stlye={{minWidth: '450', margin: 'auto'}}>
-                <CardTitle style={{color: '#fff', height: '176px', background: ''}}></CardTitle>
+                <CardTitle style={{color: '#fff', height: '276px', background: 'url(https://media.giphy.com/media/kH78ASiw737uGac1JX/giphy.gif)'}}></CardTitle>
                     <CardText>
                         Lorem ipsum
                     </CardText>
@@ -53,7 +55,7 @@ class Projects extends Component {
         } else if(this.state.activeTab === 3) {
             return (
                 <Card shadow={5} stlye={{minWidth: '450', margin: 'auto'}}>
-                 <CardTitle style={{color: '#fff', height: '176px', background: ''}}></CardTitle>
+                 <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://media.giphy.com/media/J5XaDN7mg3lHLoUJbu/giphy.gif)'}}></CardTitle>
                      <CardText>
                          Lorem ipsum
                      </CardText>
