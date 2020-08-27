@@ -19,6 +19,9 @@ class Projects extends Component {
                          <Button colored>GitHub</Button>
                          <Button colored>LinkedIn</Button> 
                      </CardActions>
+                     <CardMenu style={{color: '#fff'}}>
+                         <IconButton name="share" />
+                     </CardMenu>
 
                 </Card>
 
@@ -35,6 +38,9 @@ class Projects extends Component {
                         <Button colored>GitHub</Button>
                         <Button colored>LinkedIn</Button> 
                     </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                         <IconButton name="share" />
+                     </CardMenu>
 
                </Card>
             )
@@ -49,6 +55,9 @@ class Projects extends Component {
                         <Button colored>GitHub</Button>
                         <Button colored>LinkedIn</Button> 
                     </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                         <IconButton name="share" />
+                     </CardMenu>
 
                </Card>
             )
@@ -63,6 +72,9 @@ class Projects extends Component {
                          <Button colored>GitHub</Button>
                          <Button colored>LinkedIn</Button> 
                      </CardActions>
+                     <CardMenu style={{color: '#fff'}}>
+                         <IconButton name="share" />
+                     </CardMenu>
 
                 </Card>
             )
