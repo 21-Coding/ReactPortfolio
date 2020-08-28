@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
 import { FaReact } from 'react-icons/fa';
 import { SiCsharp } from 'react-icons/si';
+import { SiUnity } from 'react-icons/si';
+import { DiRuby } from 'react-icons/di';
 
 class Projects extends Component {
     constructor(props) {
@@ -127,8 +129,8 @@ class Projects extends Component {
             <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
               <Tab><FaReact /></Tab>
               <Tab><SiCsharp /></Tab>
-              <Tab>Ruby</Tab>
-              <Tab>Unity</Tab>
+              <Tab><DiRuby /></Tab>
+              <Tab><SiUnity /></Tab>
             </Tabs>
 
             <section className="projects-grid">
