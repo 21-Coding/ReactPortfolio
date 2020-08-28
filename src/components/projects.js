@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
 import { FaReact } from 'react-icons/fa';
+import { SiCsharp } from 'react-icons/si';
 
 class Projects extends Component {
     constructor(props) {
@@ -125,7 +126,7 @@ class Projects extends Component {
           <div>
             <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
               <Tab><FaReact /></Tab>
-              <Tab>C#</Tab>
+              <Tab><SiCsharp /></Tab>
               <Tab>Ruby</Tab>
               <Tab>Unity</Tab>
             </Tabs>
