@@ -114,3 +114,8 @@
   font-size: 5em;
   padding: 8px;
 }
+
+.react-icons {
+  vertical-align: middle;
+  color: red;
+}
