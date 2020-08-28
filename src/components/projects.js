@@ -123,16 +123,14 @@ class Projects extends Component {
         return(
           <div>
             <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-              <Tab><span style="font-size: 3em; color: Tomato;">
-  <i className="fas fa-camera"></i>
-</span></Tab>
+              <Tab>React</Tab>
               <Tab>C#</Tab>
               <Tab>Ruby</Tab>
               <Tab>Unity</Tab>
             </Tabs>
 
             <section className="projects-grid">
-                 <Grid className="projects-grid">
+                <Grid className="projects-grid">
                     <Cell col={12}>
         <div className="content">{this.toggleCategories()}</div>
                     </Cell>
