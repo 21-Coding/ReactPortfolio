@@ -16,7 +16,7 @@ class Projects extends Component {
 
                 {/* Project #1 */}
                 <Card shadow={5} stlye={{minWidth: '450', margin: 'auto'}}>
-                 <CardTitle style={{color: '#fff', height: '276px', background: 'url(https://media.giphy.com/media/12BYUePgtn7sis/giphy.gif)'}}></CardTitle>
+                 <CardTitle style={{color: '#fff', height: '276px', background: 'url()'}}></CardTitle>
                      <CardText>
                          React code description.
                      </CardText>
@@ -32,7 +32,7 @@ class Projects extends Component {
 
                 {/* Project #2 */}
                 <Card shadow={5} stlye={{minWidth: '450', margin: 'auto'}}>
-                 <CardTitle style={{color: '#fff', height: '276px', background: 'url(https://media.giphy.com/media/12BYUePgtn7sis/giphy.gif)'}}></CardTitle>
+                 <CardTitle style={{color: '#fff', height: '276px', background: 'url()'}}></CardTitle>
                      <CardText>
                          React code description.
                      </CardText>
@@ -48,7 +48,7 @@ class Projects extends Component {
 
                 {/* Project #3 */}
                 <Card shadow={5} stlye={{minWidth: '450', margin: 'auto'}}>
-                 <CardTitle style={{color: '#fff', height: '276px', background: 'url(https://media.giphy.com/media/12BYUePgtn7sis/giphy.gif)'}}></CardTitle>
+                 <CardTitle style={{color: '#fff', height: '276px', background: 'url()'}}></CardTitle>
                      <CardText>
                          React code description.
                      </CardText>
@@ -123,7 +123,9 @@ class Projects extends Component {
         return(
           <div>
             <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-              <Tab>React</Tab>
+              <Tab><span style="font-size: 3em; color: Tomato;">
+  <i class="fas fa-camera"></i>
+</span></Tab>
               <Tab>C#</Tab>
               <Tab>Ruby</Tab>
               <Tab>Unity</Tab>
