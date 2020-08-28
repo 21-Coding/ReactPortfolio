@@ -123,7 +123,9 @@ class Projects extends Component {
         return(
           <div>
             <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-              <Tab>React</Tab>
+              <Tab><span style="font-size: 3em; color: Tomato;">
+  <i className="fas fa-camera"></i>
+</span></Tab>
               <Tab>C#</Tab>
               <Tab>Ruby</Tab>
               <Tab>Unity</Tab>
