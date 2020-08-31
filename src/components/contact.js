@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
 import { DiGithubBadge } from 'react-icons/di';
+import { DiGithubFull } from 'react-icons/di';
 
 class Contact extends Component {
     render() {
@@ -25,7 +26,7 @@ class Contact extends Component {
                             <List>
                                 <ListItem>
                                     <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                                    <a href="https://github.com/21-Coding"><DiGithubBadge /></a>
+                                    <a href="https://github.com/21-Coding"><DiGithubBadge /><DiGithubFull /></a>
                                     </ListItemContent>
                                 </ListItem>
                             </List>
