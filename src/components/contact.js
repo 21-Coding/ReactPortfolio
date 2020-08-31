@@ -23,8 +23,8 @@ class Contact extends Component {
                         <div className="contact-list">
                             <List>
                                 <ListItem>
-                                    <ListItemContent>
-                                        
+                                    <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                                    
                                     </ListItemContent>
                                 </ListItem>
                             </List>
