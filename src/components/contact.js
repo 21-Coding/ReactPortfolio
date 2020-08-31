@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
+import { DiGithubBadge } from 'react-icons/di';
 
 class Contact extends Component {
     render() {
@@ -13,7 +14,7 @@ class Contact extends Component {
                             alt="avatar"
                             style={{height: '250px'}}
                             />
-                        <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}></p>
+                        <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>Web Developer</p>
 
                     </Cell>
                     <Cell col={6}>
@@ -24,8 +25,7 @@ class Contact extends Component {
                             <List>
                                 <ListItem>
                                     <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                                    <i className="fa fa-envelope" aria-hidden="true"/>
-                                    📨:ddyoumans@icloud.com
+                                    <a href="https://github.com/21-Coding"><DiGithubBadge /></a>
                                     </ListItemContent>
                                 </ListItem>
                             </List>
