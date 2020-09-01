@@ -8,7 +8,19 @@ import Skills from './skills';
 class Resume extends Component {
     render() {
         return(
-          
+          <div>
+              <Grid>
+                  <Cell col={4}>
+                      <div style={{textAlign: 'center'}}>
+                          <img
+                            src=""
+                          
+                          />
+                      </div>
+
+                  </Cell>
+              </Grid>
+          </div>
         )
     }
 }
