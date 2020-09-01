@@ -22,6 +22,7 @@ class App extends Component {
                 <Link to="/aboutme">About Me</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
+                <Link to="/education">Education</Link>
             </Navigation>
         </Drawer>
         <Content>
