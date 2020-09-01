@@ -13,7 +13,7 @@ class Experience extends Component {
                     <p>{this.props.jobDescription}</p>
                 </Cell>
             </Grid>
-            <div><h1>Experience</h1></div>
+          
         )
     }
 }
