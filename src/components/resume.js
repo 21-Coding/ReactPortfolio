@@ -32,7 +32,7 @@ class Resume extends Component {
                         startYear={2009}
                         endYear={2013}
                         schoolName="SNOW College"
-                        schoolDescription="College where it snows, duh"
+                        schoolDescription="Community College"
 
                         />
 
@@ -40,7 +40,7 @@ class Resume extends Component {
                             startYear={2013}
                             endYear={2014}
                             schoolName="South Carolina State"
-                            schoolDescription="'The' South Carolina State Univeristy!"
+                            schoolDescription="University"
 
                             />
 
