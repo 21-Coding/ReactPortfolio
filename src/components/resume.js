@@ -80,7 +80,7 @@ class Resume extends Component {
                             progress={70}
                              />
                              <Skills
-                                skill="personable"
+                                skill="Personable"
                                 progress={100}
                                 />
 
