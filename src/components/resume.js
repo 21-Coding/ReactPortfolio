@@ -43,20 +43,27 @@ class Resume extends Component {
                                 schoolDescription="University"
 
                             />
+                                 <Education
+                                startYear={2019}
+                                endYear={2020}
+                                schoolName="Epicodus"
+                                schoolDescription="Full Stack Coding Bootcamp"
+
+                            />
                     <h2>Experience</h2>
 
                     <Experience
-                        startYear={}
-                        endYear={}
-                        jobName=""
-                        jobDescription=""
+                        startYear={2019}
+                        endYear={2020}
+                        jobName="Epicodus"
+                        jobDescription="Coding Bootcamp."
                         />
 
                         <Experience
-                            startYear={}
-                            endYear={}
-                            jobName=""
-                            jobDescription=""
+                            startYear={2020}
+                            endYear={2020}
+                            jobName="Incluvie"
+                            jobDescription="Front-End Intern"
                         />
                 <hr style={{borderTop: '3px solid #e22947'}} />
                 <h2>Skills</h2>
