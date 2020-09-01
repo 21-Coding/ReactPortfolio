@@ -37,12 +37,47 @@ class Resume extends Component {
                         />
 
                             <Education
-                            startYear={2013}
-                            endYear={2014}
-                            schoolName="South Carolina State"
-                            schoolDescription="University"
+                                startYear={2013}
+                                endYear={2014}
+                                schoolName="South Carolina State"
+                                schoolDescription="University"
 
                             />
+                    <h2>Experience</h2>
+
+                    <Experience
+                        startYear={}
+                        endYear={}
+                        jobName=""
+                        jobDescription=""
+                        />
+
+                        <Experience
+                            startYear={}
+                            endYear={}
+                            jobName=""
+                            jobDescription=""
+                        />
+                <hr style={{borderTop: '3px solid #e22947'}} />
+                <h2>Skills</h2>
+                <Skills
+                    skill="React"
+                    progress={85}
+                    />
+                    <Skills
+                        skill="C#"
+                        progress={90}
+                         />
+                         <Skills
+                            skill="Unity"
+                            progress={70}
+                             />
+                             <Skills
+                                skill="personable"
+                                progress={100}
+                                />
+
+
 
                   </Cell>
               </Grid>
