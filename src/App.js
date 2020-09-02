@@ -13,16 +13,14 @@ class App extends Component {
 {/* Uses a header that scrolls with the text, rather than staying locked at the top */}
 <div className="demo-big-content">
     <Layout>
-        <Header title='"Title"' scroll>
+        <Header title="" scroll>
          
         </Header>
         <Drawer title="Title">
             <Navigation>
                 <Link to="/resume">Resume</Link>
-                <Link to="/aboutme">About Me</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
-                <Link to="/education">Education</Link>
             </Navigation>
         </Drawer>
         <Content>
