@@ -39,8 +39,8 @@ class Resume extends Component {
                         schoolDescription="Community College"
 
                         />
-<img
-                            src=""
+                        <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/SC_State_Univ_Logo.svg/1200px-SC_State_Univ_Logo.svg.png"
                             alt="avatar"
                             style={{height: '200px', alignContent: "center"}}
                           />
@@ -52,7 +52,7 @@ class Resume extends Component {
 
                             />
                             <img
-                            src="https://www.snow.edu/_resources/images/ui/default-blog-img.png"
+                            src=""
                             alt="avatar"
                             style={{height: '200px', alignContent: "center"}}
                           />
