@@ -3,6 +3,10 @@ import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
+import { FaReact } from 'react-icons/fa';
+import { SiCsharp } from 'react-icons/si';
+import { SiUnity } from 'react-icons/si';
+import { DiRuby } from 'react-icons/di';
 
 
 class Resume extends Component {
@@ -108,6 +112,8 @@ class Resume extends Component {
                 {/* Start Skills section */}
                 <h2>Skills</h2>
                 {/* 1st skill */}
+                
+                
                 <Skills
                     skill="React"
                     progress={85}
