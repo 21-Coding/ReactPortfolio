@@ -20,7 +20,7 @@ class Projects extends Component {
 
                 {/* Project #1 */}
                 <Card shadow={5} stlye={{minWidth: '450', margin: 'auto'}}>
-                 <CardTitle style={{color: '#fff', height: '276px', background: 'url()'}}></CardTitle>
+                 <CardTitle style={{color: '#fff', height: '276px', background: 'url(https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png)'}}></CardTitle>
                      <CardText>
                          React code description.
                      </CardText>
@@ -36,7 +36,7 @@ class Projects extends Component {
 
                 {/* Project #2 */}
                 <Card shadow={5} stlye={{minWidth: '450', margin: 'auto'}}>
-                 <CardTitle style={{color: '#fff', height: '276px', background: 'url()'}}></CardTitle>
+                 <CardTitle style={{color: '#fff', height: '276px', background: 'url(https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png)'}}></CardTitle>
                      <CardText>
                          React code description.
                      </CardText>
@@ -52,7 +52,7 @@ class Projects extends Component {
 
                 {/* Project #3 */}
                 <Card shadow={5} stlye={{minWidth: '450', margin: 'auto'}}>
-                 <CardTitle style={{color: '#fff', height: '276px', background: 'url()'}}></CardTitle>
+                 <CardTitle style={{color: '#fff', height: '276px', background: 'url(https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png)'}}></CardTitle>
                      <CardText>
                          React code description.
                      </CardText>
@@ -72,7 +72,7 @@ class Projects extends Component {
         } else if(this.state.activeTab === 1) {
             return (
                 <Card shadow={5} stlye={{minWidth: '450', margin: 'auto'}}>
-                <CardTitle style={{color: '#fff', height: '276px', background: 'url(https://media.giphy.com/media/MCAV63rqDcnHG/giphy.gif)'}}></CardTitle>
+                <CardTitle style={{color: '#fff', height: '276px', background: 'url(https://seeklogo.com/images/C/c-sharp-c-logo-02F17714BA-seeklogo.com.png)'}}></CardTitle>
                     <CardText>
                         Lorem ipsum
                     </CardText>
@@ -89,7 +89,7 @@ class Projects extends Component {
         } else if(this.state.activeTab === 2) {
             return (
                 <Card shadow={5} stlye={{minWidth: '450', margin: 'auto'}}>
-                <CardTitle style={{color: '#fff', height: '276px', background: 'url(https://media.giphy.com/media/kH78ASiw737uGac1JX/giphy.gif)'}}></CardTitle>
+                <CardTitle style={{color: '#fff', height: '276px', background: 'url(https://banner2.cleanpng.com/20180609/vss/kisspng-ruby-on-rails-computer-programming-programming-lan-meppel-5b1c3688d746b1.8695478715285756248818.jpg)'}}></CardTitle>
                     <CardText>
                         Lorem ipsum
                     </CardText>
