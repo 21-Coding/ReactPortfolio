@@ -32,10 +32,15 @@ class Resume extends Component {
                       <h2>Education</h2>
                       {/* logo for SNOW College */}
                       <img
-                        src="https://www.snow.edu/_resources/images/ui/default-blog-img.png"
+                        src="https://www.snow.edu/images/infographics/Rank1-300x265.png"
                         alt="avatar"
-                        style={{height: '200px', alignContent: "center"}}
+                        style={{height: '100px', alignContent: "center"}}
                           />
+                          <img
+                            src="https://www.snow.edu/_resources/images/snowcollegelogo-275x72.png"
+                            alt="logo"
+                            style={{height: '100px'}}
+                            />
                           {/* 1st school */}
                       <Education
                         startYear={2009}
@@ -74,6 +79,12 @@ class Resume extends Component {
                     <h2>Experience</h2>
                     {/* Start Experience section */}
                     {/* 1st experience coding */}
+                    {/* Logo */}
+                    <img
+                            src="https://images.squarespace-cdn.com/content/v1/5524448ee4b0d6f6b83ab9e2/1571169073874-MI6UV8DH4WIIWTGTTNO3/ke17ZwdGBToddI8pDm48kDnrEEhVia6EQe4EeMGMQtp7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0h2zeMyxpRRrRUmVnCHMxT3FffrP46bu0Ye52p0ol8KAMrZPGfWMwLPVHfdlFR-U_w/coursereport-best.png"
+                            alt="avatar"
+                            style={{height: '200px', alignContent: "center"}}
+                            />
                     <Experience
                         startYear={2019}
                         endYear={2020}
@@ -81,6 +92,12 @@ class Resume extends Component {
                         jobDescription="Coding Bootcamp."
                         />
                         {/* 2nd experience coding */}
+                        {/* Logo */}
+                        <img
+                            src="https://www.incluvie.com/img/main_logo-01.png"
+                            alt="avatar"
+                            style={{height: '200px', alignContent: "center"}}
+                            />
                         <Experience
                             startYear={2020}
                             endYear={2020}
