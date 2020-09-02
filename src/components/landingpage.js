@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class LandingPage extends Component {
     render() {
         return(
-            <div><h1>Landing Page</h1></div>
+            <h1 style={{height: '19000px', backgroundColor: "black"}}></h1>
         )
     }
 }

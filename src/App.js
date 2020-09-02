@@ -14,6 +14,11 @@ class App extends Component {
 <div className="demo-big-content">
     <Layout>
         <Header title="" scroll>
+        <img
+            src="https://media.giphy.com/media/VFThX0veZAYAVSG8BC/giphy.gif"
+            alt="avatar"
+            style={{height: '200px', alignContent: "center"}}
+            />
          
         </Header>
         <Drawer title="Title">
