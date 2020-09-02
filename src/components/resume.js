@@ -27,7 +27,11 @@ class Resume extends Component {
                   </Cell>
                   <Cell className="resume-right-col" col={8}>
                       <h2>Education</h2>
-
+                      <img
+                            src="https://www.snow.edu/_resources/images/ui/default-blog-img.png"
+                            alt="avatar"
+                            style={{height: '200px', alignContent: "center"}}
+                          />
                       <Education
                         startYear={2009}
                         endYear={2013}
@@ -35,7 +39,11 @@ class Resume extends Component {
                         schoolDescription="Community College"
 
                         />
-
+<img
+                            src=""
+                            alt="avatar"
+                            style={{height: '200px', alignContent: "center"}}
+                          />
                             <Education
                                 startYear={2013}
                                 endYear={2014}
@@ -43,6 +51,11 @@ class Resume extends Component {
                                 schoolDescription="University"
 
                             />
+                            <img
+                            src="https://www.snow.edu/_resources/images/ui/default-blog-img.png"
+                            alt="avatar"
+                            style={{height: '200px', alignContent: "center"}}
+                          />
                                  <Education
                                 startYear={2019}
                                 endYear={2020}
