@@ -106,7 +106,7 @@ class Projects extends Component {
         } else if(this.state.activeTab === 3) {
             return (
                 <Card shadow={5} stlye={{minWidth: '450', margin: 'auto'}}>
-                 <CardTitle style={{color: '#fff', height: '276px', background: 'url(https://media.giphy.com/media/J5XaDN7mg3lHLoUJbu/giphy.gif)'}}></CardTitle>
+                 <CardTitle style={{color: '#fff', height: '276px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Unity_Technologies_logo.svg/1280px-Unity_Technologies_logo.svg.png)'}}></CardTitle>
                      <CardText>
                          Lorem ipsum
                      </CardText>
