@@ -12,12 +12,14 @@ class Resume extends Component {
               <Grid>
                   <Cell col={4}>
                       <div style={{textAlign: 'center'}}>
+                          {/* Profile headshot */}
                           <img
                             src="https://lh3.googleusercontent.com/fife/ABSRlIprsY5-HL56Z-yaV9WrLmxQHTYusEvAUAqvZLI5BWrBfwoxHUEiIGs0SE2Y_pPewEJNrmx10MdExp2_mEtEzrtk6UpNr33aX6PRlC17Js5l_JOJsYCdpcMYcnsjVO2MnNRnBQPkiV3Cn5HHWjFmpcYTu1acPHslk4JYHe5mQ_KRzwawMa6x4rVY1xhcCPBiCeY1i-819plKQ_Ebwopy41FOZPehGNzmT5lLSPh4NX1spv7FQ7Sa1NYXHysRWZfUVrOmUYF6JF2RqFMhSlukdmzuafwIGbVwJ8wS7l-ILKRpdvImJUoJCGK-lc7RV9PZepmwv1kRvw4RRCkD0Jm0zlbRK-3fYj09ZZnCpZX6gIu7gbDRdzTgJdkPCVcJBpk5EhlfDsYCRqEy_Pt8V5YdVf8tVQUA96ZBwUQXC7t0Bb5h24GxINXoRR89dn8NrUxcBsxqkm-cz8rIaDlWJtu_izWPpaxZm-PUSgz0lybK_xKJZWzJtnBmntslX6IMahK-yQHrYhR3jGpISYNCOb-Ut5_I0M-43KyfZXVTbEu1XQDGnXzoHBbRQDtBS1HN_stWRQwcWpG5vtExxQrHAqItUD5oQDN1lIyvwv_hEclmwpp8ZoHId9S4eOmO8pG1A-ermuC3tIhsnoD2RFj3HSPU9DUQaW37L156xygq4et29lyV2o6VASN94GluPNFtZp4YNS6zNHFLFq0BQj0OW-qSQuz-hDwL1PFi=s1500"
                             alt="avatar"
                             style={{height: '200px'}}
                           />
                       </div>
+                      {/* Headline Begin */}
                       <h2 style={{paddingTop: '2em'}}>Dominique Youmans</h2>
                       <h4 style={{color: 'grey'}}>Web Developer</h4>
                       <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
@@ -26,12 +28,15 @@ class Resume extends Component {
 
                   </Cell>
                   <Cell className="resume-right-col" col={8}>
+                      {/* Start education section */}
                       <h2>Education</h2>
+                      {/* logo for SNOW College */}
                       <img
-                            src="https://www.snow.edu/_resources/images/ui/default-blog-img.png"
-                            alt="avatar"
-                            style={{height: '200px', alignContent: "center"}}
+                        src="https://www.snow.edu/_resources/images/ui/default-blog-img.png"
+                        alt="avatar"
+                        style={{height: '200px', alignContent: "center"}}
                           />
+                          {/* 1st school */}
                       <Education
                         startYear={2009}
                         endYear={2013}
@@ -39,59 +44,68 @@ class Resume extends Component {
                         schoolDescription="Community College"
 
                         />
+                        {/* logo for South Carolina State */}
                         <img
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/SC_State_Univ_Logo.svg/1200px-SC_State_Univ_Logo.svg.png"
                             alt="avatar"
                             style={{height: '200px', alignContent: "center"}}
-                          />
+                                />
+                            {/* Second school */}
                             <Education
                                 startYear={2013}
                                 endYear={2014}
                                 schoolName="South Carolina State"
                                 schoolDescription="University"
-
-                            />
-                            <img
-                            src="https://static1.squarespace.com/static/5524448ee4b0d6f6b83ab9e2/t/57cf3de246c3c4d2933aa57c/1598541724111/"
-                            alt="avatar"
-                            style={{height: '200px', alignContent: "center"}}
-                          />
+                                />
+                                {/* Logo for Epicodus */}
+                                <img
+                                src="https://static1.squarespace.com/static/5524448ee4b0d6f6b83ab9e2/t/57cf3de246c3c4d2933aa57c/1598541724111/"
+                                alt="avatar"
+                                style={{height: '200px', alignContent: "center"}}
+                                />
+                                {/* Third school */}
                                  <Education
-                                startYear={2019}
-                                endYear={2020}
-                                schoolName="Epicodus"
-                                schoolDescription="Full Stack Coding Bootcamp"
+                                    startYear={2019}
+                                    endYear={2020}
+                                    schoolName="Epicodus"
+                                    schoolDescription="Full Stack Coding Bootcamp"
+                                    />
 
-                            />
                     <h2>Experience</h2>
-
+                    {/* Start Experience section */}
+                    {/* 1st experience coding */}
                     <Experience
                         startYear={2019}
                         endYear={2020}
                         jobName="Epicodus"
                         jobDescription="Coding Bootcamp."
                         />
-
+                        {/* 2nd experience coding */}
                         <Experience
                             startYear={2020}
                             endYear={2020}
                             jobName="Incluvie"
                             jobDescription="Front-End Intern"
-                        />
+                            />
                 <hr style={{borderTop: '3px solid #e22947'}} />
+                {/* Start Skills section */}
                 <h2>Skills</h2>
+                {/* 1st skill */}
                 <Skills
                     skill="React"
                     progress={85}
                     />
+                    {/* 2nd skill */}
                     <Skills
                         skill="C#"
                         progress={90}
                          />
+                         {/* 3rd skill */}
                          <Skills
                             skill="Unity"
                             progress={70}
                              />
+                             {/* 4th skill */}
                              <Skills
                                 skill="Personable"
                                 progress={100}
