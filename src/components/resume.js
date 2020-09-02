@@ -52,7 +52,7 @@ class Resume extends Component {
 
                             />
                             <img
-                            src=""
+                            src="https://static1.squarespace.com/static/5524448ee4b0d6f6b83ab9e2/t/57cf3de246c3c4d2933aa57c/1598541724111/"
                             alt="avatar"
                             style={{height: '200px', alignContent: "center"}}
                           />
