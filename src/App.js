@@ -13,13 +13,15 @@ class App extends Component {
 {/* Uses a header that scrolls with the text, rather than staying locked at the top */}
 <div className="demo-big-content">
     <Layout>
+        
         <Header title="" scroll>
         <img
-            src="https://media.giphy.com/media/VFThX0veZAYAVSG8BC/giphy.gif"
+            src="https://media.giphy.com/media/VJO1f4M74IAXKTMYF8/giphy.gif"
             alt="avatar"
-            style={{height: '200px', alignContent: "center"}}
+            className="avatar-img"
+            style={{height: '95px'}}
             />
-         
+
         </Header>
         <Drawer title="Title">
             <Navigation>
