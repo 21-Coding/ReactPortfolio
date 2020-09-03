@@ -3,3 +3,4 @@
 [![GitHub stars](https://img.shields.io/github/stars/badges/shields.svg?style=social&label=Stars&style=flat)]()
 # Dominique Youmans
 ## Portfolio
+### React portfolio containing my current resume, projects, and contact information. Currently under construction.
