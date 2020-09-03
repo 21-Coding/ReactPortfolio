@@ -4,3 +4,4 @@
 # Dominique Youmans
 ## Portfolio
 React portfolio containing my current resume, projects, and contact information. Currently under construction.
+## Installation
