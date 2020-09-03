@@ -15,7 +15,7 @@ React portfolio containing my current resume, projects, and contact information.
  ![Alt Text](https://media.giphy.com/media/RiJofmYaOD7kw51YIu/giphy.gif)
 
  2. Then we want to open our downloads directory.
- 3. Now, we can open our new repo and see its contents by double clicking on "ReactPortfolio"! *Continue reading for steps to run application.*
+ 3. Now, we can open our new repo and see its contents by double clicking on "ReactPortfolio"! *Continue reading for steps on how to run application.*
 
 **Terminal/Command Line**:
 
