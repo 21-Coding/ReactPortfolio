@@ -26,9 +26,9 @@ class Resume extends Component {
                       {/* Headline Begin */}
                       <h2 style={{paddingTop: '2em'}}>Dominique Youmans</h2>
                       <h4 style={{color: 'grey'}}>Web Developer</h4>
-                      <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+                      <hr style={{borderTop: '3px solid #e22947', width: '50%'}}/>
                       <p>Developing applications that empower.</p>
-                      <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+                      <hr style={{borderTop: '3px solid #e22947', width: '50%'}}/>
 
                   </Cell>
                   <Cell className="resume-right-col" col={8}>
@@ -75,7 +75,7 @@ class Resume extends Component {
                                 <img
                                 src="https://static1.squarespace.com/static/5524448ee4b0d6f6b83ab9e2/t/57cf3de246c3c4d2933aa57c/1598541724111/"
                                 alt="avatar"
-                                style={{height: '200px', alignContent: "center"}}
+                                style={{height: '100px', alignContent: "center"}}
                                 />
                                 {/* Third school */}
                                  <Education
@@ -94,7 +94,7 @@ class Resume extends Component {
                     <img
                             src="https://images.squarespace-cdn.com/content/v1/5524448ee4b0d6f6b83ab9e2/1571169073874-MI6UV8DH4WIIWTGTTNO3/ke17ZwdGBToddI8pDm48kDnrEEhVia6EQe4EeMGMQtp7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0h2zeMyxpRRrRUmVnCHMxT3FffrP46bu0Ye52p0ol8KAMrZPGfWMwLPVHfdlFR-U_w/coursereport-best.png"
                             alt="avatar"
-                            style={{height: '200px', alignContent: "center"}}
+                            style={{height: '100px', alignContent: "center"}}
                             />
                     <Experience
                         startYear={2019}
@@ -109,7 +109,7 @@ class Resume extends Component {
                         <img
                             src="https://www.incluvie.com/img/main_logo-01.png"
                             alt="avatar"
-                            style={{height: '200px', alignContent: "center"}}
+                            style={{height: '100px', alignContent: "center"}}
                             />
                         <Experience
                             startYear={2020}
