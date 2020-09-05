@@ -22,9 +22,9 @@ React portfolio containing my current resume, projects, and contact information.
 
  1. Let's download the file by clicking on the clipboard icon shown in the video below.
 ![Alt Text](https://media.giphy.com/media/W6ipq7dDh65YC4ieNB/giphy.gif)
-2. To be sure that we send the files to a known location, lets type the following command into the terminal:
+2. To be sure that we send the files to a known location, lets type the following command into the terminal / command line:
 `cd desktop`.
-3. Then, type `git clone` into the terminal.
+3. Then, type `git clone` into the terminal / command line.
 4. Following `git clone` enter one space & paste the link from your clipboard into the command line / terminal.
 ![Alt Text](https://media.giphy.com/media/WRRNx739BzfoM0mkaw/giphy.gif)																																							
 # Running Application
