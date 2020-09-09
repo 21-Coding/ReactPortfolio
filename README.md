@@ -32,6 +32,7 @@ React portfolio containing my current resume, projects, and contact information.
  `npm install npm@latest -g`. This will set up our development environment.
  2. Next, run the following command in the same directory: `npm i`
  ![Alt Text](https://media.giphy.com/media/LmU4SdbCXmyPSOugzI/giphy.gif)
+ 
 
 
 
