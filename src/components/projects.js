@@ -4,6 +4,9 @@ import { FaReact } from 'react-icons/fa';
 import { SiCsharp } from 'react-icons/si';
 import { SiUnity } from 'react-icons/si';
 import { DiRuby } from 'react-icons/di';
+import { DiGithubFull } from 'react-icons/di';
+import { DiGithubBadge } from 'react-icons/di';
+
 
 class Projects extends Component {
     constructor(props) {
@@ -25,7 +28,7 @@ class Projects extends Component {
                          React code description.
                      </CardText>
                      <CardActions border>
-                         <Button colored>GitHub</Button>
+                     <a href="https://github.com/21-Coding"><DiGithubBadge /><DiGithubFull /></a>
                          <Button colored>LinkedIn</Button> 
                      </CardActions>
                      <CardMenu style={{color: '#fff'}}>
