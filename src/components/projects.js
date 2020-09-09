@@ -29,7 +29,7 @@ class Projects extends Component {
                      </CardText>
                      <CardActions border>
                      <a href="https://github.com/21-Coding"><DiGithubBadge /><DiGithubFull /></a>
-                         <Button colored>LinkedIn</Button> 
+                         
                      </CardActions>
                      <CardMenu style={{color: '#fff'}}>
                          <IconButton name="share" />
