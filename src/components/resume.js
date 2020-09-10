@@ -25,7 +25,7 @@ class Resume extends Component {
                       <hr style={{borderTop: '3px solid #e22947', width: '50%'}}/>
                       <p>Developing applications that empower.</p>
                       <hr style={{borderTop: '3px solid #e22947', width: '50%'}}/>
-
+                      <hr />
                   {/* Start Skills section */}
                 <h2>Skills</h2>
                 {/* 1st skill */}
@@ -74,7 +74,7 @@ class Resume extends Component {
                         schoolDescription="Associate of Science (AS)"
 
                         />
-                        
+                          <hr />
                          
                         {/* logo for South Carolina State */}
                         <img
@@ -89,7 +89,7 @@ class Resume extends Component {
                                 schoolName="South Carolina State"
                                 schoolDescription="BS Family Consumer Science"
                                 />
-                             
+                               <hr />
                                 {/* Logo for Epicodus */}
                                 <img
                                 src="https://static1.squarespace.com/static/5524448ee4b0d6f6b83ab9e2/t/57cf3de246c3c4d2933aa57c/1598541724111/"
@@ -121,7 +121,7 @@ class Resume extends Component {
                         jobName="Epicodus"
                         jobDescription="Epicodus is a coding bootcamp offering part- and full-time courses online and in Portland, Oregon, and Seattle, Washington. Students learn everything they need to know to get a job as a web developer by learning JavaScript, Ruby on, Rails, C#, .NET, and React. More important than any particular skill, cohorts are taught how to think like a programmer, write good code, and pick up new languages and technologies in this fast-changing industry. Epicodus focuses on collaboration and inclusivity. Students work together in pairs and teams almost every day, and a diversity, equity, and inclusion approach is a core part of the program design."
                         />
-                    
+                      <hr />
                         {/* 2nd experience coding */}
                         {/* Logo */}
                         <img
