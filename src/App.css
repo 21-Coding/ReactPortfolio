@@ -2,6 +2,9 @@
   background: #050007;  /* fallback for old browsers */
  
 }
+h2 {
+  text-align: center;
+}
 
 .landing-grid {
   background: #192526;  /* fallback for old browsers */
