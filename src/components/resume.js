@@ -80,7 +80,7 @@ class Resume extends Component {
                         <img
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/SC_State_Univ_Logo.svg/1200px-SC_State_Univ_Logo.svg.png"
                             alt="avatar"
-                            style={{height: '150px', alignContent: "center"}}
+                            style={{height: '150px'}}
                                 />
                             {/* Second school */}
                             <Education
@@ -94,7 +94,7 @@ class Resume extends Component {
                                 <img
                                 src="https://static1.squarespace.com/static/5524448ee4b0d6f6b83ab9e2/t/57cf3de246c3c4d2933aa57c/1598541724111/"
                                 alt="avatar"
-                                style={{height: '100px', alignContent: "center"}}
+                                style={{height: '100px'}}
                                 />
                                 {/* Third school */}
                                  <Education
@@ -113,7 +113,7 @@ class Resume extends Component {
                     <img
                             src="https://images.squarespace-cdn.com/content/v1/5524448ee4b0d6f6b83ab9e2/1571169073874-MI6UV8DH4WIIWTGTTNO3/ke17ZwdGBToddI8pDm48kDnrEEhVia6EQe4EeMGMQtp7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0h2zeMyxpRRrRUmVnCHMxT3FffrP46bu0Ye52p0ol8KAMrZPGfWMwLPVHfdlFR-U_w/coursereport-best.png"
                             alt="avatar"
-                            style={{height: '100px', alignContent: "center"}}
+                            style={{height: '100px'}}
                             />
                     <Experience
                         startYear={2019}
@@ -127,7 +127,7 @@ class Resume extends Component {
                         <img
                             src="https://www.incluvie.com/img/main_logo-01.png"
                             alt="avatar"
-                            style={{height: '100px', alignContent: "center"}}
+                            style={{height: '100px'}}
                             />
                         <Experience
                             startYear={2020}
