@@ -55,8 +55,8 @@ class Resume extends Component {
                   </Cell>
                   <Cell className="resume-right-col" col={8}>
                       {/* Start education section */}
-                      <h2>Education</h2>
                       <hr style={{borderTop: '3px solid #e22947'}} />
+                      <h2>Education</h2>
                 <hr />
                       {/* logo for SNOW College */}
                 
@@ -103,8 +103,8 @@ class Resume extends Component {
                                     schoolName="Epicodus"
                                     schoolDescription="Full Stack Web Development Certificate"
                                     />
-                    <h2>Experience</h2>
                                     <hr style={{borderTop: '3px solid #e22947'}} />
+                    <h2>Experience</h2>
                                      <hr />
                    
                     {/* Start Experience section */}
