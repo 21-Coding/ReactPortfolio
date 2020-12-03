@@ -10,29 +10,28 @@
 React portfolio containing my current resume, projects, and contact information. Currently under construction.
 
 # Installation
-**Zip:** 
 
- 1. Let's download the file by clicking "Download ZIP".
- ![Alt Text](https://media.giphy.com/media/RiJofmYaOD7kw51YIu/giphy.gif)
+**Zip:**
 
- 2. Then we want to open our downloads directory.
- 3. Now, we can open our new repo and see its contents by double clicking on "ReactPortfolio"! *Continue reading for steps on how to run application.*
+1.  Let's download the file by clicking "Download ZIP".
+    ![Alt Text](https://media.giphy.com/media/RiJofmYaOD7kw51YIu/giphy.gif)
+
+2.  Then we want to open our downloads directory.
+3.  Now, we can open our new repo and see its contents by double clicking on "ReactPortfolio"! _Continue reading for steps on how to run application._
 
 **Terminal/Command Line**:
 
- 1. Let's download the file by clicking on the clipboard icon shown in the video below.
- ![Alt Text](https://media.giphy.com/media/W6ipq7dDh65YC4ieNB/giphy.gif)
- 2. To be sure that we send the files to a known location, lets type the following command into the terminal / command line:
- `cd desktop`.
- 3. Then, type `git clone` into the terminal / command line.
- 4. Following `git clone` enter one space & paste the link from your clipboard into the command line / terminal.
- ![Alt Text](https://media.giphy.com/media/WRRNx739BzfoM0mkaw/giphy.gif)																																							
+1.  Let's download the file by clicking on the clipboard icon shown in the video below.
+    ![Alt Text](https://media.giphy.com/media/W6ipq7dDh65YC4ieNB/giphy.gif)
+2.  To be sure that we send the files to a known location, lets type the following command into the terminal / command line:
+    `cd desktop`.
+3.  Then, type `git clone` into the terminal / command line.
+4.  Following `git clone` enter one space & paste the link from your clipboard into the command line / terminal.
+    ![Alt Text](https://media.giphy.com/media/WRRNx739BzfoM0mkaw/giphy.gif)
+
 # Running Application
- 1. If you havent already, you should install Node Package Manager, or NPM by using the following command in your production directory (project directory):
- `npm install npm@latest -g`. This will set up our development environment.
- 2. Next, run the following command in the same directory: `npm i`
- ![Alt Text](https://media.giphy.com/media/LmU4SdbCXmyPSOugzI/giphy.gif)
- 
 
-
-
+1.  If you havent already, you should install Node Package Manager, or NPM by using the following command in your production directory (project directory):
+    `npm install npm@latest -g`. This will set up our development environment.
+2.  Next, run the following command in the same directory: `npm i`
+    ![Alt Text](https://media.giphy.com/media/LmU4SdbCXmyPSOugzI/giphy.gif)
