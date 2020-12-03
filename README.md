@@ -27,6 +27,7 @@ React portfolio containing my current resume, projects, and contact information.
     `cd desktop`.
 3.  Then, type `git clone` into the terminal / command line.
 4.  Following `git clone` enter one space & paste the link from your clipboard into the command line / terminal.
+
     ![Alt Text](https://media.giphy.com/media/WRRNx739BzfoM0mkaw/giphy.gif)
 
 # Running Application
